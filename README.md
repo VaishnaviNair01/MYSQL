@@ -36,54 +36,41 @@ FROM rides
 GROUP BY driver_id  
 ORDER BY total_earnings DESC  
 LIMIT 5;
-2️⃣ Identify Most Popular Pickup Locations
-sql
-Copy
-Edit
+### **2️⃣ Identify Most Popular Pickup Locations
+
 SELECT pickup_location, COUNT(*) AS total_rides  
 FROM rides  
 GROUP BY pickup_location  
 ORDER BY total_rides DESC  
 LIMIT 10;
-3️⃣ Retrieve Monthly Revenue Trends
-sql
-Copy
-Edit
+### **3️⃣ Retrieve Monthly Revenue Trends
+
 SELECT DATE_FORMAT(ride_date, '%Y-%m') AS month, SUM(fare_amount) AS total_revenue  
 FROM rides  
 GROUP BY month  
 ORDER BY month DESC;
-4️⃣ Calculate Average Ride Duration
-sql
-Copy
-Edit
+### **4️⃣ Calculate Average Ride Duration
+
 SELECT AVG(TIMESTAMPDIFF(MINUTE, start_time, end_time)) AS avg_ride_duration  
 FROM rides;
-🚀 How to Use This Project
-1️⃣ Run the Queries
+## 🚀 How to Use This Project
+### **1️⃣ Run the Queries
 Open your SQL environment (MySQL, PostgreSQL, or any SQL-compatible tool).
 Load the dataset if available.
 Execute the provided SQL queries.
 Analyze the query results for insights.
-2️⃣ Modify for Custom Analysis
+### **2️⃣ Modify for Custom Analysis
 Change date ranges, locations, or filters to focus on specific data points.
 Use JOINS to combine tables and extract deeper insights.
 Optimize queries for faster performance.
-🛠️ Contributions
-This SQL analysis was conducted by:
-👩‍💻 [Your Name] (Replace with your actual name!)
 
-Your contributions include:
-✅ Designing advanced SQL queries for insights
-✅ Optimizing queries for performance
-✅ Extracting meaningful business intelligence
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 🔹 Predictive Analysis – Use SQL-based trend analysis for ride demand forecasting.
 🔹 Anomaly Detection – Identify fraudulent activities in ride payments.
 🔹 Real-Time Analytics – Implement live tracking using SQL views.
 
-📜 License
+## 📜 License
 This project is open-source. Feel free to contribute, refine, or expand the SQL analysis! 🚀
 
 
