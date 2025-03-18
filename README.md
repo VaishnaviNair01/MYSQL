@@ -66,9 +66,9 @@ Optimize queries for faster performance.
 
 
 ## 🔮 Future Enhancements
--🔹 Predictive Analysis – Use SQL-based trend analysis for ride demand forecasting.
--🔹 Anomaly Detection – Identify fraudulent activities in ride payments.
--🔹 Real-Time Analytics – Implement live tracking using SQL views.
+- 🔹 **Predictive Analysis** – Use SQL-based trend analysis for ride demand forecasting.
+- 🔹 **Anomaly Detection** – Identify fraudulent activities in ride payments.
+- 🔹 **Real-Time Analytics** – Implement live tracking using SQL views.
 
 ## 📜 License
 This project is open-source. Feel free to contribute, refine, or expand the SQL analysis! 🚀
