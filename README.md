@@ -1,6 +1,6 @@
-# 🚖 Namma Yatri Database  
+# 🚖 Namma Yatri Project 
 
-The **Namma Yatri Database** is a structured SQL-based system designed to manage ride-sharing operations, including users, drivers, rides, and transactions. It ensures efficient ride tracking, payment processing, and analytics support.  
+The **Namma Yatri Project** is a structured SQL-based system designed to manage ride-sharing operations, including users, drivers, rides, and transactions. It ensures efficient ride tracking, payment processing, and analytics support.  
 
 ## 📌 Key Features  
 ✅ **User & Driver Management** – Stores user and driver details securely.  
